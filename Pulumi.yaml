@@ -1,0 +1,3 @@
+name: Iac_pulumi4
+runtime: java
+description: A minimal AWS Java Pulumi program

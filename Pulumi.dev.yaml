@@ -1,0 +1,26 @@
+encryptionsalt: v1:ueTFuyiPg8w=:v1:hVPf5kcgWOtweCUU:h9pPCsI3AsRKpi7up7GPHObqhwcsmg==
+config:
+  aws:region: us-west-1
+  gcp:project: development-406402
+  Iac_pulumi4:data:
+    name: "VpcMain"
+    cidr-block: "10.0.0.0/16"
+    num_of_subnets: 3
+    public-cidr: 0.0.0.0/0
+    ami_id: ami-05b834bab91c937fd
+    sub_domain: "dev.webapplicationforcloud.me"
+    zoneId: "Z018028530LCBMUZ4UDTF"
+    ports:
+      - 22
+      - 8080
+    LB_ports:
+      - 80
+      - 443
+    volume: 25
+    instancetype: t2.micro
+    keyname: KeyPair
+    gcp_bucketname: "development_csye6225"
+    certificate_arn: "arn:aws:acm:us-west-1:538060352558:certificate/08c6c0a9-cb4a-4ca6-bba4-5a82415be070"
+    gcp_account_id: "01701F-65A9C3-FCA645"
+    gcp_key: "d-FL95Q19q7MQmFpd7hHD0Ty"
+    api_key: "38fbb8eabd59a2c797f768c5a110634c-30b58138-8ddd986d"

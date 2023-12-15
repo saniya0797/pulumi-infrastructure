@@ -1,0 +1,27 @@
+encryptionsalt: v1:80WPBqgCK7U=:v1:COTB7zue1lhSX0EI:H9T458JiBDCLBzZfciXuQeFLW1r51A==
+config:
+  aws:region: us-west-1
+  gcp:project: snappy-abode-406402
+  Iac_pulumi4:data:
+    name: "VpcMain"
+    cidr-block: "10.0.0.0/16"
+    num_of_subnets: 3
+    public-cidr: 0.0.0.0/0
+    ami_id: ami-0ec95ebd6f1002ba1
+    sub_domain: "demo.webapplicationforcloud.me"
+    zoneId: "Z03008941N3BXFNQ5KZNG"
+    ports:
+      - 22
+      - 8080
+    LB_ports:
+      - 80
+      - 443
+    volume: 25
+    instancetype: t2.micro
+    keyname: keyname1
+    gcp_bucketname: "demo_bucket_csye6225"
+    certificate_arn: "arn:aws:acm:us-west-1:609392511080:certificate/cf422fd0-9f71-4f3f-96ba-975ede602a9e"
+    gcp_account_id: "01701F-65A9C3-FCA645"
+    gcp_key: "d-FL95Q19q7MQmFpd7hHD0Ty"
+    api_key: "38fbb8eabd59a2c797f768c5a110634c-30b58138-8ddd986d"
+
